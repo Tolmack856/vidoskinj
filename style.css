@@ -2,6 +2,10 @@ body {
     background-color: #310062;
 }
 
+.photos_01 {
+   width: 1.05em;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -30,6 +34,11 @@ li:last-child {
 
 li a.active {
   background-color: #ff7518;
+  color: black;
+}
+
+li a.active1 {
+  background-color: #00ffff;
   color: black;
 }
 
