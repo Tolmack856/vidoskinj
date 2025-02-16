@@ -1,92 +1,40 @@
 body { 
-    background-color: indigo;
-}
-.photos {
-   width: 10em;
-    /*-webkit-filter: blur(2px);  
-    filter: blur(2px);*/
- }
- 
- 
-.photos_01 {
-   width: 1.0em;
-   /*<img class="photos_01" src="https://cdn-icons-png.flaticon.com/128/1156/1156949.png"*/
-}
- 
- .version {
-	color: #fff;
+    background-color: #310062;
 }
 
-a.button24 {
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    padding: .5em 2em;
-    outline: none;
-    border-width: 2px 0;
-    border-style: solid none;
-    border-color: #FDBE33 #000 #D77206;
-    border-radius: 6px;
-    background: linear-gradient(#F3AE0F, #E38916) #E38916;
-    transition: 0.2s;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
 }
-a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
-a.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
 
-
-a.button25 {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: .5em 2em;
-    outline: none;
-    border-width: 2px 0;
-    border-style: solid none;
-    border-color: #0000ff #00ffff #00008b;
-    border-radius: 6px;
-    background: linear-gradient(#0000ff, #00ffff) #00008b;
-    transition: 0.2s;
-}
-a.button25:active { background: linear-gradient(#00ffff, #00008b) #0000ff; }
-
-
-input.button4 {
-  position: relative;
-  display: inline-block;
-  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  color: rgb(245,245,245);
-  text-shadow: 0 -1px rgba(0,0,0,.1);
+li a {
+  display: block;
+  background-color: #7fffd4;
+  color: #000;
+  padding: 8px 16px;
   text-decoration: none;
-  user-select: none;
-  padding: .3em 1em;
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  background: #0c9c0d linear-gradient(#82d18d, #0c9c0d);
-  box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
-  -webkit-animation: pulsate 1.2s linear infinite;
-  animation: pulsate 1.2s linear infinite;
-}
-input.button4:hover {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-  cursor: pointer;
-}
-input.button4:active {
-  top: 1px;
-  color: #fff;
-  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
-  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
-}
-@-webkit-keyframes pulsate {
-  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
-}
-@keyframes pulsate {
-  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
 }
 
- .new_1 {
-	 color: yellow;
- }
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #ff7518;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  /*текст пр наведение*/
+}
