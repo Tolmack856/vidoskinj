@@ -1,5 +1,12 @@
 body { 
-    background-color: #445e5f;
+    background: url(https://img3.akspic.ru/previews/7/6/6/8/7/178667/178667-treugolnik-art-simmetriya-emblema-simvol-500x.jpg);
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
 }
 
 .three {
