@@ -1,9 +1,24 @@
 body { 
-    background-color: #310062;
+	background: url(https://img3.akspic.ru/previews/3/0/9/6/7/176903/176903-zakat-oblako-voda-atmosfera-rastenie-500x.jpg);
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
 }
 
+.photos {
+   width: 13em;
+ }
+ 
 .photos_01 {
    width: 1.05em;
+}
+
+ .version {
+	color: black;
 }
 
 ul {
@@ -40,6 +55,11 @@ li a.active {
 li a.active1 {
   background-color: #00ffff;
   color: black;
+}
+
+li a.active2 {
+  background-color: black;
+  color: red;
 }
 
 li a:hover:not(.active) {
