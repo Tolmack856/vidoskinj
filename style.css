@@ -1,5 +1,5 @@
 body { 
-	background: url(https://img3.akspic.ru/previews/3/0/9/6/7/176903/176903-zakat-oblako-voda-atmosfera-rastenie-500x.jpg);
+	background: url(https://img2.akspic.ru/previews/5/3/5/9/7/179535/179535-poslesvechenie-ladon-derevo-dnevnoe_vremya-rastenie-500x.jpg);
 	background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -18,6 +18,8 @@ body {
 }
 
  .version {
+	/*-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;*/
 	color: black;
 }
 
@@ -49,11 +51,6 @@ li:last-child {
 
 li a.active {
   background-color: #ff7518;
-  color: black;
-}
-
-li a.active1 {
-  background-color: #00ffff;
   color: black;
 }
 
