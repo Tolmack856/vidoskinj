@@ -14,6 +14,12 @@ body {
   text-align: center;
 }
 
+ .text1 {
+	 color: yellow;
+	 -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+ }
+
 .three h1 {
   font-family: 'Merriweather', serif;
   position: relative;
